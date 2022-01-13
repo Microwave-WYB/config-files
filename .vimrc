@@ -407,15 +407,15 @@ inoremap " ""<esc>i
 inoremap "" ""
 inoremap jk <esc>
 inoremap zz <esc>zza
-inoremap <A>j <left>
-inoremap <A>k <down>
-inoremap <A>l <right>
-inoremap <A>i <up>
 set rnu
 set cursorline
 color default
 " Map hjkl to jkl;
-noremap i k
-noremap j h
-noremap k j
+noremap i <Up>
+noremap j <Left>
+noremap k <Down>
 noremap h i
+noremap I 10<Up>
+noremap J b
+noremap K 10<Down>
+noremap L w
